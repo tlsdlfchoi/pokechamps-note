@@ -1,6 +1,6 @@
 {
-  "name": "포챔스 노트",
-  "short_name": "포챔스 노트",
+  "name": "오레오거폰",
+  "short_name": "오레오거폰",
   "description": "포켓몬 챔피언스 샘플·파티·데미지 계산·채용률",
   "lang": "ko",
   "start_url": "./",
