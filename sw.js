@@ -1,6 +1,6 @@
 // 공책 포켓몬 service worker: keeps the app shell available offline.
 // Battle data is stored by the app itself (IndexedDB), so API calls are not cached here.
-const CACHE = 'pchamp-shell-v47';
+const CACHE = 'pchamp-shell-v48';
 const SPRITES = 'pchamp-sprites-v1';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
